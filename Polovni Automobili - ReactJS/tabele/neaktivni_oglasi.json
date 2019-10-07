@@ -1,0 +1,62 @@
+[
+	{
+		"Sifra_oglasa" : 999877,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 12490,
+		"Marka_automobila" : "Opel",
+		"Model_automobila" : "Astra K"
+	},
+	{
+		"Sifra_oglasa" : 326566,
+		"Godiste" : 2014,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 10990,
+		"Marka_automobila" : "Alfa Romeo",
+		"Model_automobila" : "Giulietta"
+	},
+	{
+		"Sifra_oglasa" : 333245,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 17590,
+		"Marka_automobila" : "BMW",
+		"Model_automobila" : "518"
+	},
+	{
+		"Sifra_oglasa" : 877777,
+		"Godiste" : 2019,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 14340,
+		"Marka_automobila" : "Renault",
+		"Model_automobila" : "Megane"
+	},
+	{
+		"Sifra_oglasa" : 911123,
+		"Godiste" : 2002,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 2000,
+		"Marka_automobila" : "Opel",
+		"Model_automobila" : "Corsa C"
+	},
+	{
+		"Sifra_oglasa" : 550002,
+		"Godiste" : 2003,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2006-06-20",
+		"Istice" : "2006-07-20",
+		"Cena" : 2450,
+		"Marka_automobila" : "Volkswagen",
+		"Model_automobila" : "A4"
+	}
+]

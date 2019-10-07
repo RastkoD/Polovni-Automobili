@@ -1,0 +1,143 @@
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	max-width: 800px;
+}
+
+.FA {
+	/*width: 770px;*/
+	margin: 0;
+	text-align: center;
+}
+
+.FA-1 {
+	padding: 15px;
+	/*background: #eee;*/
+	border: 1px solid #eee;
+	box-shadow: 0 7px 4px -6px #ccc;
+	border-radius: 10px;
+}
+
+.FA-1 p {
+	font-size: 1rem;
+}
+
+/*.FA-1 a.purchase {
+	text-align: center;
+	width: 162px;
+	height: 38px;
+	padding: 6px 12px;
+	font-size: 1rem;
+	color: white;
+	background-color: #1779ba;
+	border-color: #1779ba;
+	cursor: pointer;
+}*/
+
+.FA-1 button {
+	background-color: #1779ba;
+	border-color: #1779ba;
+}
+
+.FA-1 button:hover {
+	background-color: #1779ba;
+	border-color: #1779ba;
+}
+
+.add-buttons {
+	display: flex;
+	padding-right: 15px;
+	justify-content: flex-end;
+}
+
+.add-buttons button {
+	border-radius: 0.3rem;
+	background-color: #ddd;
+	color: #444;
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 0px #ccc;
+}
+
+/*.add-buttons > div.undo {
+	margin-right: 10px;
+	text-align: center;
+	width: 140px;
+	height: 31px;
+	padding: 4px 8px;
+	font-size: 0.875rem;
+	background-color: #ddd;
+	color: #444;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 0px #ccc;
+	cursor: pointer;
+}
+
+.add-buttons > div.delete {
+	text-align: center;
+	width: 95px;
+	height: 31px;
+	padding: 4px 8px;
+	font-size: 0.875rem;
+	background-color: #ddd;
+	color: #444;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 0px #ccc;
+	cursor: pointer;
+}*/
+
+.empty {
+	text-align: center;
+}
+
+.empty h6 {
+	color: #999;
+}
+
+@media screen and (max-width: 1200px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.side-nav {
+		margin: 0;
+		/*border-left: none;*/
+	}
+
+	.content {
+		min-width: 720px;
+		margin: 0;
+		/*border-right: none;*/
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+

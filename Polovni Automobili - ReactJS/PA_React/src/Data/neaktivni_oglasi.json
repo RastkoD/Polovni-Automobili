@@ -1,0 +1,68 @@
+[
+	{
+		"sifra" : 999877,
+		"godiste" : 2015,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 12490,
+		"marka" : "Opel",
+		"model" : "Astra K",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1438/14381753/cfc45752da7a-370x278.jpg"
+	},
+	{
+		"sifra" : 326566,
+		"godiste" : 2014,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 10990,
+		"marka" : "Alfa Romeo",
+		"model" : "Giulietta",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1452/14525590/bab7fcfa6780-370x278.jpg"
+	},
+	{
+		"sifra" : 333245,
+		"godiste" : 2015,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 17590,
+		"marka" : "BMW",
+		"model" : "518",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1455/14555827/9b89195cef24-370x278.jpg"
+	},
+	{
+		"sifra" : 877777,
+		"godiste" : 2019,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 14340,
+		"marka" : "Renault",
+		"model" : "Megane",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1457/14575840/2968e8b8b307-370x278.jpg"
+	},
+	{
+		"sifra" : 911123,
+		"godiste" : 2002,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 2000,
+		"marka" : "Opel",
+		"model" : "Corsa C",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1394/13948806/1d1adfd99378-370x278.jpg"
+	},
+	{
+		"sifra" : 550002,
+		"godiste" : 2003,
+		"pregled" : 0,
+		"postavljen" : "12.05.2019.",
+		"istice" : "12.06.2006.",
+		"cena" : 2450,
+		"marka" : "Volkswagen",
+		"model" : "A4",
+		"image" : "https://images3.polovniautomobili.com/user-images/thumbs/1441/14416808/e309a7bc7c0b-370x278.jpg"
+	}
+]

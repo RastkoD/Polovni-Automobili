@@ -1,0 +1,93 @@
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	max-width: 800px;
+}
+
+.MV-1, .example-img {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.nocar {
+	height: 65px;
+}
+
+.nocar > img {
+	width: 85px;
+}
+
+.nocar-text {
+	padding-left: 10px;
+}
+
+.nocar-text > p.car-button {
+	font-size: 1rem;
+	padding-top: 15px;
+}
+
+.nocar-text > p.car-button > button {
+	float: left;
+}
+
+.nocar-text > p.car-button > button:hover {
+	background-color: #79ba17;
+	border-color: #79ba17;
+}
+
+hr {
+	border-top: 1px solid #ddd;
+}
+
+p.MV-text {
+	font-size: 0.9rem;
+}
+
+p.MV-text > a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.side-nav {
+		margin: 0;
+	}
+
+	.content {
+		min-width: 720px;
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+}
+

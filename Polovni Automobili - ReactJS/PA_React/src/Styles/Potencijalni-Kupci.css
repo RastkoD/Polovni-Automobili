@@ -1,0 +1,202 @@
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	max-width: 800px;
+}
+
+/* Headline and Box */
+.potencijalni-kupci {
+  max-width: 770px;
+}
+
+h4 {
+  font-size: 1.2rem
+}
+
+.center {
+  text-align: center;
+}
+
+.PK {
+  max-width: 770px;
+  margin: 0;
+  text-align: center;
+}
+
+.box-1 {
+  padding: 15px;
+  /*background: rgb(228, 228, 228);*/
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.box-1 p {
+  font-size: 15px;
+}
+
+.far {
+  padding: 5px;
+}
+
+.explain a {
+  text-decoration: none;
+  color: #1779ba;
+}
+
+.explain a:hover {
+  color: #28a745;
+}
+
+/* Selectors */
+.msg-buttons {
+  display: grid;
+  grid-template-columns: 1.35fr 0.7fr 0.7fr;
+  grid-template-rows: auto;
+  padding: 0 15px;
+  padding-left: 30px;
+}
+
+.msg-buttons > button {
+  float: right;
+  width: fit-content;
+  color: #6c757d;
+  border-color: #ccc;
+  border-radius: 0.3rem;
+}
+
+.msg-buttons > button:hover {
+	background-color: #ccc;
+	border-color: #ccc;
+  	color: #444;
+}
+
+.check {
+  float: left;
+  font-weight: 400;
+  padding: 6px;
+}
+
+section.potencijalni-kupci > table {
+  margin: 0 15px 15px;
+  max-width: 740px;
+  text-align: center;
+}
+
+#sc > div:nth-child(2) > div > section > table > thead > tr > th {
+	text-align: center;
+}
+#sc > div:nth-child(2) > div > section > table > thead > tr {
+	border: 1px solid #ccc;
+}
+
+#sc > div:nth-child(2) > div > section > table > tbody > tr > td {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+p.text-center > button {
+	border-color: #1779ba;
+	border-radius: 0.3rem;
+	color: #1779ba;
+}
+
+p.text-center > button:hover {
+	background-color: #1779ba;
+	border-color: #1779ba;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+
+	.msg-buttons > button {
+		/*float: left;*/
+		font-size: 0.9rem
+	}
+	section.potencijalni-kupci > table {
+		max-width: max-content;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.break {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	.side-nav {
+		margin: 0;
+		/*border-left: none;*/
+	}
+
+	.content {
+		/*min-width: 720px;*/
+		margin: 0;
+		/*border-right: none;*/
+	}
+
+	.break {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		/*min-width: 720px;*/
+		margin: 0;
+		border-right: none;
+	}
+
+	.msg-buttons {
+		display: inline-block;
+	}
+
+	.msg-buttons > button {
+		float: left;
+	}
+
+	section.potencijalni-kupci > table {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+	section.potencijalni-kupci > table {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		padding-left: 10px;
+		border-right: none;
+	}
+	section.potencijalni-kupci > table {
+		max-width: 320px;
+		text-align: center;
+	}
+}

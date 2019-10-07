@@ -1,0 +1,31 @@
+[
+
+    {			
+        "ime": "Dijana",
+        "prezime": "Dzomba",
+        "broj_oglasa": "654548",
+        "year": "1987",
+        "pol": "z"
+    },
+    {
+        "ime": "Damir",
+        "prezime": "Musin", 
+        "broj_oglasa": "6548657",
+        "year": "1980",
+        "pol": "m"
+    },
+    {
+        "ime": "Rastko",
+        "prezime": "Dimitrijevic", 
+        "broj_oglasa": "645978",
+        "year": "1989",
+        "pol": "m"
+    },
+    {
+        "ime": "Milica",
+        "prezime": "Pocuca", 
+        "broj_oglasa": "987654",
+        "year": "1977",
+        "pol": "z"
+    }
+]

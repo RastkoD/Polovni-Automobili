@@ -1,0 +1,242 @@
+[
+	{
+		"Sifra_oglasa" : 14425145,
+		"Godiste" : 2007,
+		"Broj_pregleda_oglasa" : 0,
+		"Postavljen" : "2019-05-23",
+		"Istice" : "2019-06-23",
+		"Cena" : 23000,
+		"Marka_automobila" : "Mercedes Benz Q",
+		"Model_automobila" : "A 140"
+	},
+	{
+		"Sifra_oglasa" : 256875,
+		"Godiste" : 2010,
+		"Broj_pregleda_oglasa" : 1205,
+		"Postavljen" : "2001-06-20",
+		"Istice" : "2001-07-20",
+		"Cena" : 7390,
+		"Marka_automobila" : "BMW",
+		"Model_automobila" : "118"
+	},
+	{
+		"Sifra_oglasa" : 741589,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 3588,
+		"Postavljen" : "2016-05-20",
+		"Istice" : "2016-06-20",
+		"Cena" : 14990,
+		"Marka_automobila" : "Mercedes Benz",
+		"Model_automobila" : "A180"
+	},
+	{
+		"Sifra_oglasa" : 221358,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 288,
+		"Postavljen" : "2020-05-20",
+		"Istice" : "2020-06-20",
+		"Cena" : 35000,
+		"Marka_automobila" : "Land Rover",
+		"Model_automobila" : "Sport 3.0 HSE"
+	},
+	{
+		"Sifra_oglasa" : 112588,
+		"Godiste" : 2019,
+		"Broj_pregleda_oglasa" : 5042,
+		"Postavljen" : "2028-05-20",
+		"Istice" : "2028-05-20",
+		"Cena" : 14890,
+		"Marka_automobila" : "Ford",
+		"Model_automobila" : "C-Max"
+	},
+	{
+		"Sifra_oglasa" : 792123,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 111,
+		"Postavljen" : "2004-06-20",
+		"Istice" : "2004-07-20",
+		"Cena" : 25999,
+		"Marka_automobila" : "BMW",
+		"Model_automobila" : "X3"
+	},
+	{
+		"Sifra_oglasa" : 411522,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 368,
+		"Postavljen" : "2001-06-20",
+		"Istice" : "2001-07-20",
+		"Cena" : 19950,
+		"Marka_automobila" : "Land Rover",
+		"Model_automobila" : "Evoque 2.2 TD4"
+	},
+	{
+		"Sifra_oglasa" : 327899,
+		"Godiste" : 2013,
+		"Broj_pregleda_oglasa" : 1502,
+		"Postavljen" : "2013-05-20",
+		"Istice" : "2013-06-20",
+		"Cena" : 15555,
+		"Marka_automobila" : "BMW",
+		"Model_automobila" : "X3"
+	},
+	{
+		"Sifra_oglasa" : 479779,
+		"Godiste" : 2019,
+		"Broj_pregleda_oglasa" : 222,
+		"Postavljen" : "2030-05-20",
+		"Istice" : "2030-06-20",
+		"Cena" : 10290,
+		"Marka_automobila" : "Hyundai",
+		"Model_automobila" : "I20"
+	},
+	{
+		"Sifra_oglasa" : 545622,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 899,
+		"Postavljen" : "2001-06-20",
+		"Istice" : "2001-07-20",
+		"Cena" : 12990,
+		"Marka_automobila" : "Peugeot",
+		"Model_automobila" : "5008"
+	},
+	{
+		"Sifra_oglasa" : 610233,
+		"Godiste" : 2004,
+		"Broj_pregleda_oglasa" : 1300,
+		"Postavljen" : "2030-05-20",
+		"Istice" : "2030-06-20",
+		"Cena" : 2900,
+		"Marka_automobila" : "Alfa Romeo",
+		"Model_automobila" : "GT"
+	},
+	{
+		"Sifra_oglasa" : 781522,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 1212,
+		"Postavljen" : "2010-05-20",
+		"Istice" : "2010-06-20",
+		"Cena" : 6200,
+		"Marka_automobila" : "Renault",
+		"Model_automobila" : "Clio"
+	},
+	{
+		"Sifra_oglasa" : 211311,
+		"Godiste" : 2013,
+		"Broj_pregleda_oglasa" : 544,
+		"Postavljen" : "2005-06-20",
+		"Istice" : "2005-07-20",
+		"Cena" : 21400,
+		"Marka_automobila" : "BMW",
+		"Model_automobila" : "525"
+	},
+	{
+		"Sifra_oglasa" : 358958,
+		"Godiste" : 2018,
+		"Broj_pregleda_oglasa" : 2040,
+		"Postavljen" : "2015-05-20",
+		"Istice" : "2015-06-20",
+		"Cena" : 62725,
+		"Marka_automobila" : "Volvo",
+		"Model_automobila" : "XC60"
+	},
+	{
+		"Sifra_oglasa" : 549668,
+		"Godiste" : 2015,
+		"Broj_pregleda_oglasa" : 1368,
+		"Postavljen" : "2012-05-20",
+		"Istice" : "2012-06-20",
+		"Cena" : 8750,
+		"Marka_automobila" : "Fiat",
+		"Model_automobila" : "500L"
+	},
+	{
+		"Sifra_oglasa" : 897421,
+		"Godiste" : 2009,
+		"Broj_pregleda_oglasa" : 988,
+		"Postavljen" : "2003-06-20",
+		"Istice" : "2003-07-20",
+		"Cena" : 399,
+		"Marka_automobila" : "Opel",
+		"Model_automobila" : "Cors D"
+	},
+	{
+		"Sifra_oglasa" : 336528,
+		"Godiste" : 2012,
+		"Broj_pregleda_oglasa" : 963,
+		"Postavljen" : "2003-06-20",
+		"Istice" : "2003-07-20",
+		"Cena" : 11400,
+		"Marka_automobila" : "Chevrolet",
+		"Model_automobila" : "Orlando"
+	},
+	{
+		"Sifra_oglasa" : 200148,
+		"Godiste" : 2013,
+		"Broj_pregleda_oglasa" : 1050,
+		"Postavljen" : "2010-05-20",
+		"Istice" : "2010-06-20",
+		"Cena" : 6690,
+		"Marka_automobila" : "Opel",
+		"Model_automobila" : "Astra J"
+	},
+	{
+		"Sifra_oglasa" : 305222,
+		"Godiste" : 2013,
+		"Broj_pregleda_oglasa" : 2008,
+		"Postavljen" : "2007-05-20",
+		"Istice" : "2007-06-20",
+		"Cena" : 8990,
+		"Marka_automobila" : "Peugeot",
+		"Model_automobila" : "2008"
+	},
+	{
+		"Sifra_oglasa" : 863005,
+		"Godiste" : 2014,
+		"Broj_pregleda_oglasa" : 303,
+		"Postavljen" : "2001-06-20",
+		"Istice" : "2001-07-20",
+		"Cena" : 9390,
+		"Marka_automobila" : "Opel",
+		"Model_automobila" : "Insignia"
+	},
+	{
+		"Sifra_oglasa" : 262001,
+		"Godiste" : 2008,
+		"Broj_pregleda_oglasa" : 698,
+		"Postavljen" : "2001-06-20",
+		"Istice" : "2001-06-20",
+		"Cena" : 4999,
+		"Marka_automobila" : "Peugeot",
+		"Model_automobila" : "308"
+	},
+	{
+		"Sifra_oglasa" : 100863,
+		"Godiste" : 2019,
+		"Broj_pregleda_oglasa" : 1001,
+		"Postavljen" : "2009-05-20",
+		"Istice" : "2009-05-20",
+		"Cena" : 7250,
+		"Marka_automobila" : "Kia",
+		"Model_automobila" : "Sportage"
+	},
+	{
+		"Sifra_oglasa" : 457800,
+		"Godiste" : 2007,
+		"Broj_pregleda_oglasa" : 212,
+		"Postavljen" : "2001-05-20",
+		"Istice" : "2001-09-20",
+		"Cena" : 2999,
+		"Marka_automobila" : "Mercedes",
+		"Model_automobila" : "A180"
+	},
+	{
+		"Sifra_oglasa" : 111232,
+		"Godiste" : 1997,
+		"Broj_pregleda_oglasa" : 133,
+		"Postavljen" : "2005-06-20",
+		"Istice" : "2005-07-20",
+		"Cena" : 850,
+		"Marka_automobila" : "Volkswagen",
+		"Model_automobila" : "Polo"
+	}
+]

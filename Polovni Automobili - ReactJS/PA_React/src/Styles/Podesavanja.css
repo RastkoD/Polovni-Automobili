@@ -1,0 +1,203 @@
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	max-width: 800px;
+}
+
+hr {
+	border-top: 2px solid #1779ba
+}
+
+.settings {
+	margin: 0;
+
+}
+
+label {
+	font-size: 0.9rem;
+}
+
+.profil-1 {
+	min-width: 350px;
+	padding: 5px 5px 5px 0
+}
+
+.profil-2 {
+	min-width: 350px;
+	padding: 5px 0 5px 5px
+}
+
+.profil-3 {
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.profil-4 {
+	padding: 5px 0 5px 0;
+}
+
+.profil-5 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+form {
+	font-size: 0.9rem;
+	padding: 20px 10px 0 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.required, .not-required, .change_pass {
+	float: left
+	}
+
+.required span {
+	color: red
+}
+
+input {
+	border-radius: 10px;
+    border-width: 1px;
+    border: 1px solid #ccc;
+}
+
+select {
+	border-radius: 10px 0 0 10px;
+    border-width: 1px;
+    border: 1px solid #ccc;
+}
+
+input[type=text], input[type=password], select {
+	float: right;
+	padding-left: 5px;
+	font-size: 0.9rem;
+	width: 150px
+}
+
+form > span {
+	font-size: 0.9rem
+}
+
+.facebook > div > div {
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+.facebook > div p {
+	font-size: 0.9rem
+}
+
+.facebook button#soc-3 {
+	color: #fff;
+	background: #1779ba;
+	border-color: #1779ba;
+}
+
+.facebook button#soc-3:hover {
+	color: #fff;
+	background: #4593c7;
+	border-color: #4593c7;
+}
+
+.facebook i {
+	margin: 0 3px;
+}
+
+.submit > div > div {
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+.profil-3 p {
+	margin: 15px 0 0 0;
+	padding: 0 5px;
+}
+
+.submit button:hover {
+	background: #79ba17;
+	border-color: #79ba17;
+}
+
+@media screen and (max-width: 1200px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+
+	.profil-2 {
+		min-width: 350px;
+		padding: 5px 5px 5px 0;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.side-nav {
+		margin: 0;
+		/*border-left: none;*/
+	}
+
+	.content {
+		margin: 0;
+		/*border-right: none;*/
+	}
+
+	.settings {
+		min-width: 770px;
+	}
+
+	.profil-1, .profil-2 {
+		max-width: 340px;
+		padding: 5px 5px 5px 0;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+
+	.profil-1, .profil-2 {
+		min-width: 680px;
+		padding: 5px 5px 5px 0;
+	}
+}
+@media screen and (max-width: 768px) {
+	.profil-1, .profil-2 {
+		min-width: inherit;
+		padding: 5px 5px 5px 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.side-nav {
+		margin: 0;
+		border-left: none;
+	}
+
+	.content {
+		margin: 0;
+		border-right: none;
+	}
+
+	.profil-1, .profil-2 {
+		/*min-width: 350px;*/
+		padding: 5px 5px 5px 0;
+	}
+
+}

@@ -1,0 +1,164 @@
+div#main {
+  border-right: 1px solid #1779ba;
+}
+
+.side-nav {
+  max-width: 300px;
+  height: inherit;
+  margin: 0 5px 0 20px;
+  padding-top: 10px;
+  display: block;
+}
+
+.profile-pic {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.profile-pic img {
+  display: block;
+  margin: 0 auto;
+}
+
+.profile-pic:hover .overlay {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 15px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social button {
+  width: 210px;
+  height: 40px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.social button#soc-1 {
+  margin: 0px 20px 15px 20px;
+  background-color: #1779ba;
+  border-color: #1779ba;
+}
+
+.social button#soc-1:hover {
+  background-color: #1f94e2;
+  border-color: #0e4468;
+  cursor: pointer;
+}
+
+.social button#soc-2 {
+  margin: 0px 20px 0px 20px;
+}
+
+.social button#soc-2:hover {
+  background-color: #3fdd64;
+  border-color: #0e3d19;
+  cursor: pointer;
+}
+
+.social i {
+  font-size: 19px;
+  font-weight: normal;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.questions {
+  margin: 40px 0 40px 20px;
+}
+
+.questions a {
+  padding: 7px 0px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+a.exmp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.exmp:hover {
+  color: #1779ba;
+}
+
+.questions p {
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444;
+}
+
+@media screen and (max-width: 1200px) {
+  div#main {
+    border-right: none;
+  }
+  .side-nav {
+    max-width: 600px;
+    margin: 0 5px 0 20px;
+    padding-top: 10px;
+    border-right: none;
+    display: flex;
+  }
+  .social {
+    margin: 10px 0;
+    max-width: 300px;
+  }
+  .profile-pic img {
+    display: block;
+    margin: 0 auto 0 80px;
+  }
+  .overlay {
+    margin-left: 20px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div#main {
+    border-right: none;
+  }
+  .side-nav {
+    max-width: 300px;
+    margin: 0 5px 0 20px;
+    padding-top: 10px;
+    display: block;
+  }
+}
