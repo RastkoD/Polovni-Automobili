@@ -1,0 +1,390 @@
+/*Top-Nav*/
+
+.top-nav {
+	min-height: 20px;
+}
+
+
+/*Side-Nav*/
+
+.main {
+	margin-bottom: 20px;
+}
+
+.side-nav {
+	max-width: 300px;
+	margin: 0 5px 0 20px;
+	padding-top: 10px;
+	border-left: 1px solid #f1a41a;
+	background-color: #eee;
+}
+
+@media screen and (max-width: 1200px) {
+	.side-nav {
+		margin-bottom: 20px;
+	}
+}
+.profile-pic {
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.profile-pic img {
+	display: block;
+	margin: 0 auto;
+}
+
+.profile-pic:hover .overlay {
+	opacity: 0.7;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	width: 100%;
+	margin-top: 30px;
+	padding: 0 15px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #eee;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.social {
+	margin: 10px 0;
+}
+
+.soc-1 {
+	text-align: center;
+	width: 210px;
+	height: 40px;
+	margin: 5px 20px 15px 20px;
+	padding: 10px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #1779ba;
+	border-color: #1779ba;
+	cursor: pointer;
+}
+
+.soc-2 {
+	text-align: center;
+	width: 210px;
+	height: 40px;
+	margin: 15px 20px 5px 20px;
+	padding: 10px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	background-color: #f1a41a;
+	border-color: #f1a41a;
+	cursor: pointer;
+}
+
+.social i {
+	font-size: 19px;
+    font-weight: normal;
+    margin-right: 3px;
+	margin-left: 3px;
+}
+
+.user-info {
+	margin: 20px 10px 20px 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.my-menu {
+	margin: 0;
+	font-size: 14px;
+}
+
+.my-menu ul {
+	margin: 0 0 0 20px;
+}
+
+.my-menu ul li a.active {
+	font-weight: bold;
+	color: #1779ba;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+.menu-hover-lines {
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: all 0.35s ease;
+	width: 83%;
+}
+
+.menu-hover-lines li a {
+	padding: 0.75rem 0;
+	color: rgba(10, 10, 10, 0.5);
+	position: relative;
+}
+
+.menu-hover-lines li:first-child a {
+	margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+	background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+	position: absolute;
+	height: 2px;
+	width: 0;
+	content: '';
+	background-color: #1779ba;
+	transition: all 0.35s ease;
+}
+
+.menu-hover-lines a::before {
+	top: 0;
+	left: 0;
+}
+
+.menu-hover-lines a::after {
+	bottom: 0;
+	right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+	/*color: #0a0a0a;*/
+	transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+	width: 100%;
+}
+
+.questions {
+	margin: 40px 0 40px 20px;
+}
+
+.side-nav a {
+	padding: 7px 0px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	cursor: pointer;
+}
+
+a.exmp {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.exmp:hover {
+	color: #1779ba;
+}
+
+.questions p {
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #444;
+} 
+
+
+/*Main Content*/
+
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	border-right: 1px solid #f1a41a;
+	max-width: 800px;
+}
+
+.main-container {
+  max-width: 800px;
+}
+
+/* Headlines and first page */
+.headline {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ff7300;
+  background-color: #424242;
+  color: silver;
+}
+
+.headline1 {
+  color: rgb(109, 109, 109);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.boxsz {
+  box-sizing: border-box;
+  /*padding: 50px;*/
+  border-bottom: 2px solid #ff7300;
+  /*font-size: 20px;*/
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.boxsz h6 {
+  font-style: italic;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+/*.row {
+  margin: 0 -5px;
+}
+*/
+/* Clear floats after the columns */
+/*.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+*/
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Tables */
+.table {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.mainborder {
+  border-bottom: 2px solid #ff7300;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.table thead tr th:nth-of-type(4) {
+  padding-bottom: 25px;
+}
+
+.table thead tr th:nth-of-type(6) {
+  padding-bottom: 25px;
+}
+
+.mainborder.col-md-12 table.bshad.table.table-striped.table-bordered.table-dark.table-hover thead {
+	font-size: 0.8rem;
+}
+
+.mainborder.col-md-12 table.bshad.table.table-striped.table-bordered.table-dark.table-hover tbody {
+	font-size: 0.9rem;
+}
+
+.btn {
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+  padding: 0 0 15px 15px;
+  font-size: 15px;
+}
+
+.italic1 {
+  font-style: italic;
+  padding: 35px 0 15px 17px;
+  font-size: 15px;
+}
+
+.table > tbody > tr > th {
+  vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.bshad {
+  box-shadow: 0 4px 8px 0 rgb(255, 142, 67);
+}
+
+/* Picture profile */
+.savetnik {
+  padding: 5%;
+  background-color: #424242;
+  color: silver;
+  box-shadow: 0 4px 8px 0 rgb(255, 142, 67);
+}
+.savetnik .img {
+  text-align: center;
+}
+.savetnik .details {
+  border-left: 3px solid #ff7300;
+}
+.savetnik .details p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.silver {
+  color: silver;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hide {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hidetablet {
+    display: none;
+  }
+}

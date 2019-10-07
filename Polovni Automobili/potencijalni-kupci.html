@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Polovnia Autmobili - Obaveštenja</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/4.3.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/5.8.2-web-free/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/potencijalni-kupci.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css"
+    />
+</head>
+<body>
+	<section>
+		<div class="container top-nav">
+			<div></div>
+			<div class="advert"></div>
+		</div>
+		<div class="container main">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 side-nav">
+	                <div class="profile-pic">
+	                    <img src="img/user-pic.png" />
+		                    <div class="overlay">
+	                        	<div class="text">Ubacite svoju fotografiju</div>
+	                    	</div>
+					</div>
+	                <div class="social">
+	                        <div class="soc-1"><i class="fab fa-facebook-square"></i> Poveži FB profil</div>
+	                        <!-- <button type="button" class="btn btn-primary btn-md" id="soc-1"><i class="fab fa-facebook-f"></i> Poveži FB profil</button> -->
+							<!-- <button type="button" class="btn btn-warning btn-md" id="soc-2">Iskorišćenost oglasa: 0%</button> -->
+	                        <div class="soc-2">Iskorišćenost oglasa: 0%</div>
+	                </div>
+	                <div class="user-info"></div>
+	                <div class="my-menu">
+	                    <ul class="nav flex-column menu menu-hover-lines">
+	                        <li><a class="nav-link" href="aktivni-oglasi.html">Aktivni oglasi</a></li>
+	                        <li><a class="nav-link" href="neaktivni-oglasi.html">Neaktivni oglasi</a></li>
+	                        <li><a class="nav-link" href="moja-vozila.html">Moja vozila</a></li>
+	                        <li><a class="nav-link" href="poruke.html">Poruke</a></li>
+	                        <li><a class="nav-link" href="potencijalni-kupci.html">Potencijalni kupci</a></li>
+	                        <li><a class="nav-link active" href="#self">Krediti</a></li>
+	                        <li><a class="nav-link" href="oglasi.html">Oglasi koje pratim</a></li>
+	                        <li><a class="nav-link" href="obavestenja.html">Obaveštenja</a></li>
+	                        <li><a class="nav-link" href="podesavanja.html">Podešavanja</a></li>
+	                        <li><a class="nav-link" href="404.html">Oglasi kupovinu</a></li>
+	                    </ul>
+	                </div>
+
+	                <div class="questions">
+	                    <p>Česta pitanja</p>
+	                    <div><a class="exmp" href="#">Kako da postavim oglas?</a></div>
+	                    <div><a class="exmp" href="#">Kako da poručim dilerski paket?</a></div>
+	                    <div><a class="exmp" href="#">Kako da istaknem oglas?</a></div>
+	                    <div><a class="exmp" href="#">Koliko oglasa mogu da postavim?</a></div>
+	                    <div><a class="exmp" href="#">Ostala pitanja</a></div>
+	                </div>
+
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9 content">
+				    <!-- Headline and Box -->
+				    <section class="potencijalni-kupci">
+				      <div class="container center">
+				        <h4>Potencijalni kupci</h4>
+				        <br />
+				        <div class="row PK">
+				          <div class="col-lg-12 col-md-12 col-sm-12 box-1">
+				            <p>
+				              <span><i class="far fa-handshake fa-2x"></i></span> Zainteresovani
+				              kupci su potencijalni kupci koji su zainteresovani za vozilo /
+				              oglas koje nudite i očekuju Vašu ponudu.
+				              <br />
+				              <span><i class="far fa-thumbs-up fa-2x"></i></span> Pratioci oglasa
+				              prate vaš oglas, jer im se oglas sviđa, prate promenu cene ili će
+				              Vas sami kontaktirati.
+				            </p>
+				            <!-- <br> -->
+				            <div class="explain">
+				              <a href=""
+				                ><span><i class="fas fa-info-circle"></i></span>
+				                Pogledaj objašnjenje ove usluge
+				              </a>
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				      <br />
+
+				      <!-- Selectors -->
+				      <div class="msg-buttons">
+				        <div class="check">
+				          <input type="checkbox" /> Prikaži i pratioce oglasa
+				        </div>
+				        <button type="button" class="btn btn-outline-secondary btn-md">
+				          Neposlate ponude (0)
+				        </button>
+				        <button type="button" class="btn btn-outline-secondary btn-md">
+				          Poslate ponude (0)
+				        </button>
+				      </div>
+				      <br />
+				      <!-- Result table -->
+				      <table class="table table-hover table-sm table-primary table-bordered">
+				        <thead>
+				          <tr>
+				            <th>Tip</th>
+				            <th>Potencijalni kupac</th>
+				            <th>Oglas</th>
+				            <th>Vreme praćenja</th>
+				            <th>Ponuda poslata</th>
+				            <th>Akcije</th>
+				          </tr>
+				        </thead>
+				      </table>
+				      <p class="text-center">
+				        <button class="btn btn-outline-primary">Učitaj još</button>
+				      </p>
+				    </section>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+		<script type="text/javascript" src="bootstrap/4.3.1-dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,269 @@
+/*Top-Nav*/
+
+.top-nav {
+	min-height: 20px;
+}
+
+
+/*Side-Nav*/
+
+.main {
+	margin-bottom: 20px;
+}
+
+.side-nav {
+	max-width: 300px;
+	margin: 0 5px 0 20px;
+	padding-top: 10px;
+	border-left: 1px solid #f1a41a;
+	background-color: #eee;
+}
+
+.profile-pic {
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.profile-pic img {
+	display: block;
+	margin: 0 auto;
+}
+
+.profile-pic:hover .overlay {
+	opacity: 0.7;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	width: 100%;
+	margin-top: 30px;
+	padding: 0 15px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #eee;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.social {
+	margin: 10px 0;
+}
+
+.soc-1 {
+	text-align: center;
+	width: 210px;
+	height: 40px;
+	margin: 5px 20px 15px 20px;
+	padding: 10px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #1779ba;
+	border-color: #1779ba;
+	cursor: pointer;
+}
+
+.soc-2 {
+	text-align: center;
+	width: 210px;
+	height: 40px;
+	margin: 15px 20px 5px 20px;
+	padding: 10px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	background-color: #f1a41a;
+	border-color: #f1a41a;
+	cursor: pointer;
+}
+
+.social i {
+	font-size: 19px;
+    font-weight: normal;
+    margin-right: 3px;
+	margin-left: 3px;
+}
+
+.user-info {
+	margin: 20px 10px 20px 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.my-menu {
+	margin: 0;
+	font-size: 14px;
+}
+
+.my-menu ul {
+	margin: 0 0 0 20px;
+}
+
+.my-menu ul li a.active {
+	font-weight: bold;
+	color: #1779ba;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+.menu-hover-lines {
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: all 0.35s ease;
+	width: 83%;
+}
+
+.menu-hover-lines li a {
+	padding: 0.75rem 0;
+	color: rgba(10, 10, 10, 0.5);
+	position: relative;
+}
+
+.menu-hover-lines li:first-child a {
+	margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+	background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+	position: absolute;
+	height: 2px;
+	width: 0;
+	content: '';
+	background-color: #1779ba;
+	transition: all 0.35s ease;
+}
+
+.menu-hover-lines a::before {
+	top: 0;
+	left: 0;
+}
+
+.menu-hover-lines a::after {
+	bottom: 0;
+	right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+	/*color: #0a0a0a;*/
+	transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+	width: 100%;
+}
+
+.questions {
+	margin: 40px 0 40px 20px;
+}
+
+.side-nav a {
+	padding: 7px 0px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	cursor: pointer;
+}
+
+a.exmp {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.exmp:hover {
+	color: #1779ba;
+}
+
+.questions p {
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #444;
+} 
+
+
+/*Main Content*/
+
+.content {
+	margin: 0 15px 0 5px;
+	padding-bottom: 10px;
+	border-right: 1px solid #f1a41a;
+	max-width: 800px;
+}
+
+.MV-1, .example-img {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.nocar {
+	height: 85px;
+}
+
+.nocar > img {
+	width: 84px;
+}
+
+.nocar-text {
+	padding-left: 10px;
+}
+
+.nocar-text > p.car-button {
+	font-size: 1rem;
+	padding-top: 15px;
+}
+
+.nocar-text > p.car-button > a.add-car {
+	float: left;
+	text-align: center;
+	width: 128px;
+	height: 31px;
+	padding: 4px 8px;
+	font-size: 0.875rem;
+	color: white;
+	background-color: #8cc14c;
+	border-color: #8cc14c;
+	cursor: pointer;
+}
+
+hr {
+	border-top: 1px solid #ddd;
+}
+
+p.MV-text {
+	font-size: 0.9rem;
+}
+
+p.MV-text > a {
+	text-decoration: none;
+}
