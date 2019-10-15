@@ -7,6 +7,6 @@
 
  * [x] UX/UI, Tables
  * [x] HTML/CSS/JS, JQuery
- * [x] ReactJS, Router
- * [x] FontAwesome, Bootstrap
+ * [x] ReactJS, React Router
+ * [x] FontAwesome, Bootstrap, UIKit
  * [x] Working with JSON and some PHP
